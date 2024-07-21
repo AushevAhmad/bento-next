@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'nord',
+  theme: 'catppuccin-macchiato',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -113,7 +113,7 @@ export const config: Config = {
       },
       {
         name: 'Twitter',
-        icon: 'x-twitter',
+        icon: 'fab-twitter',
         url: 'https://twitter.com',
       },
       {
@@ -128,7 +128,7 @@ export const config: Config = {
       },
       {
         name: 'Github starred repos',
-        icon: 'sparkles',
+        icon: 'star',
         url: 'https://github.com/AushevAhmad?tab=stars',
       },
     ],
