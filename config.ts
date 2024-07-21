@@ -11,8 +11,8 @@ import { Config } from './src/types/config';
 // Use an editor with Typescript support to get autocomplete and validity checking!
 export const config: Config = {
   // General
-  name: 'John',
-  openInNewTab: true,
+  name: 'Ahmad',
+  openInNewTab: false,
   title: 'Bento',
 
   // Clock
@@ -28,7 +28,7 @@ export const config: Config = {
   },
 
   // Theme
-  theme: 'bento',
+  theme: 'nord',
 
   // Place a background image in ./src/assets/images/ and provide the file name.
   // Alternatively, provide a URL to an image. If the page is served over https, you may have issues loading images from insecure origins.
@@ -58,7 +58,7 @@ export const config: Config = {
   greetingMorning: 'Good morning,',
   greetingAfternoon: 'Good afternoon,',
   greetingEvening: 'Good evening,',
-  greetingNight: 'Sweet dreams,',
+  greetingNight: 'Good night,',
 
   // Layout
   layout: 'bento', // 'bento', 'lists', 'buttons'
@@ -88,12 +88,12 @@ export const config: Config = {
   // If themeButton is set to false, the theme can only be set in this file.
   // Disabling the weather component may cause issues with location-based light/dark switching.
   componentsEnabled: {
-    searchBar: true,
-    themeButton: true,
+    searchBar: false,
+    themeButton: false,
     clock: true,
     greeter: true,
     date: true,
-    weather: true,
+    weather: false,
   },
 
   // Buttons
@@ -102,24 +102,24 @@ export const config: Config = {
     // If you're using the 'bento' layout, this is the only group that will be used.
     [
       {
-        name: 'Github', // set the name of the card
-        icon: 'fab-github', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
-        url: 'https://github.com/', // provide a link to the page.
+        name: 'YouTube', // set the name of the card
+        icon: 'fab-youtube', // provide a FontAwesome icon name. Regular icons (fa-) don't require a prefix, while FA-Brands icons must be prefixed with "fab-"
+        url: 'https://youtube.com/', // provide a link to the page.
       },
       {
-        name: 'Mail',
-        icon: 'envelope',
-        url: 'https://mail.protonmail.com/',
+        name: 'Github',
+        icon: 'fab-github',
+        url: 'https://github.com/',
       },
       {
-        name: 'Todoist',
-        icon: 'list-ol',
-        url: 'https://todoist.com',
+        name: 'Twitter',
+        icon: 'x-twitter',
+        url: 'https://twitter.com',
       },
       {
-        name: 'Calendar',
-        icon: 'calendar',
-        url: 'https://calendar.google.com/calendar/r',
+        name: 'Mistral AI',
+        icon: 'robot',
+        url: 'https://chat.mistral.ai/chat',
       },
       {
         name: 'Reddit',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Odysee',
-        icon: 'fab-youtube',
-        url: 'https://odysee.com/',
+        name: 'Github starred repos',
+        icon: 'sparkles',
+        url: 'https://github.com/AushevAhmad?tab=stars',
       },
     ],
     // Second buttons group
@@ -177,41 +177,41 @@ export const config: Config = {
         icon: 'music', // Icon for the list to use. The same as the buttons.
         links: [
           {
-            name: 'Inspirational', // Display text for the link
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ', // URL to the page
+            name: 'LoFi beats', // Display text for the link
+            url: 'https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn/', // URL to the page
           },
           {
-            name: 'Classic',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Focus',
+            url: 'https://open.spotify.com/playlist/4JdB6dVuZDCLNgZkVNxVC4/',
           },
           {
-            name: 'Oldies',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Breakcore',
+            url: 'https://open.spotify.com/playlist/4139Ai4s1Vmq5HTOK79qCn/',
           },
           {
-            name: 'Rock',
-            url: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+            name: 'Jazz',
+            url: 'https://open.spotify.com/playlist/37i9dQZF1DX4wta20PHgwo/',
           },
         ],
       },
       {
-        icon: 'coffee',
+        icon: 'newspaper',
         links: [
           {
-            name: 'Linkedin',
-            url: 'https://www.linkedin.com',
+            name: 'Verge',
+            url: 'https://theverge.com/',
           },
           {
-            name: 'Dribbble',
-            url: 'https://www.dribbble.com',
+            name: 'Wired',
+            url: 'https://www.wired.com',
           },
           {
-            name: 'Trello',
-            url: 'https://www.trello.com',
+            name: 'MacRumors',
+            url: 'https://www.macrumors.com',
           },
           {
-            name: 'Slack',
-            url: 'https://www.slack.com',
+            name: 'AppleInsider',
+            url: 'https://appleinsider.com/',
           },
         ],
       },
