@@ -112,9 +112,9 @@ export const config: Config = {
         url: 'https://github.com/',
       },
       {
-        name: 'Twitter',
-        icon: 'fab-twitter',
-        url: 'https://twitter.com',
+        name: 'Discord',
+        icon: 'fab-discord',
+        url: 'https://discord.com/channels/@me',
       },
       {
         name: 'Mistral AI',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Github starred repos',
-        icon: 'star',
-        url: 'https://github.com/AushevAhmad?tab=stars',
+        name: 'Twitter',
+        icon: 'fab-twitter',
+        url: 'https://twitter.com',
       },
     ],
     // Second buttons group
