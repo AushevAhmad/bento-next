@@ -112,9 +112,9 @@ export const config: Config = {
         url: 'https://github.com/',
       },
       {
-        name: 'Discord',
-        icon: 'fab-discord',
-        url: 'https://discord.com/channels/@me',
+        name: 'School',
+        icon: 'school',
+        url: 'https://foxford.ru/dashboard/daily-plan',
       },
       {
         name: 'Mistral AI',
@@ -127,9 +127,9 @@ export const config: Config = {
         url: 'https://reddit.com',
       },
       {
-        name: 'Twitter',
-        icon: 'fab-twitter',
-        url: 'https://twitter.com',
+        name: 'Adguard Home',
+        icon: 'shield',
+        url: 'http://127.0.0.1/',
       },
     ],
     // Second buttons group
@@ -178,19 +178,19 @@ export const config: Config = {
         links: [
           {
             name: 'LoFi beats', // Display text for the link
-            url: 'https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn/', // URL to the page
+            url: 'spotify://https://open.spotify.com/playlist/37i9dQZF1DWWQRwui0ExPn/', // URL to the page
           },
           {
             name: 'Focus',
-            url: 'https://open.spotify.com/playlist/4JdB6dVuZDCLNgZkVNxVC4/',
+            url: 'spotify://https://open.spotify.com/playlist/4JdB6dVuZDCLNgZkVNxVC4/',
           },
           {
             name: 'Breakcore',
-            url: 'https://open.spotify.com/playlist/4139Ai4s1Vmq5HTOK79qCn/',
+            url: 'spotify://https://open.spotify.com/playlist/4139Ai4s1Vmq5HTOK79qCn/',
           },
           {
             name: 'Jazz',
-            url: 'https://open.spotify.com/playlist/37i9dQZF1DX4wta20PHgwo/',
+            url: 'spotify://https://open.spotify.com/playlist/37i9dQZF1DX4wta20PHgwo/',
           },
         ],
       },
